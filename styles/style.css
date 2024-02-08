@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: o auto;
+    padding: 20px;
+}
+
+.main-div {
+    position: relative;
+}
+
+.main-p {
+    position: absolute;
+    left: 779px;
+    top: 50px;
+}
+
+.main-titel {
+    position: absolute;
+    left: 779px;
+    top: 80px;
+}
+
+.points {
+    position: relative;
+    left: 70px;
+    display: block;
+    display: flex;
+    align-items: center;
+}
+
+.points::before { 
+    content: url(../images/icon.svg);
+    margin-right: 5px;
+}
+
+.points:hover {
+    transform: scale(1.1);
+}
+
+img {
+    transform: rotate(25deg);
+}
